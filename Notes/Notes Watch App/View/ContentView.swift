@@ -13,6 +13,7 @@ struct ContentView: View {
     
     @State private var notes:[Note] = [Note]()
     @State private var text:String = ""
+    @AppStorage("lineCount") var lineCount:Int = 1
 
     // MARK: - FUNCTION
     func getDocumentDirectory() -> URL {
@@ -109,7 +110,7 @@ struct ContentView: View {
                                         .foregroundColor(.accentColor)
                                     
                                     Text(notes[i].text)
-                                        .lineLimit(1)
+                                        .lineLimit(lineCount)
                                         .padding(.leading, 5)
                                 }
                             }

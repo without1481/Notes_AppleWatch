@@ -16,6 +16,7 @@
 		DD86C5ED299BAF0900D29678 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD86C5EC299BAF0900D29678 /* DetailView.swift */; };
 		DD86C5EF299BB2E900D29678 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD86C5EE299BB2E900D29678 /* CreditsView.swift */; };
 		DD86C5F2299BB3B500D29678 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD86C5F1299BB3B500D29678 /* HeaderView.swift */; };
+		DD86C5F4299BB82C00D29678 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD86C5F3299BB82C00D29678 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DD86C5EC299BAF0900D29678 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DD86C5EE299BB2E900D29678 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		DD86C5F1299BB3B500D29678 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DD86C5F3299BB82C00D29678 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				DD36A3E7299A9A9A00D9BDAA /* ContentView.swift */,
 				DD86C5EC299BAF0900D29678 /* DetailView.swift */,
 				DD86C5EE299BB2E900D29678 /* CreditsView.swift */,
+				DD86C5F3299BB82C00D29678 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD86C5F4299BB82C00D29678 /* SettingsView.swift in Sources */,
 				DD36A3E8299A9A9A00D9BDAA /* ContentView.swift in Sources */,
 				DD86C5F2299BB3B500D29678 /* HeaderView.swift in Sources */,
 				DD86C5ED299BAF0900D29678 /* DetailView.swift in Sources */,
